@@ -12,12 +12,14 @@ In viewcontroller am allocating draggableviewlayout at the top by using the belo
 ---------------------
 The DraggableViewBackground is loaded above the Viewcontroller interfacebuilder in storyboard.
 
-The DraggableViewBrackground class is used to setup the whole swipable cards.
+The DraggableViewBackground class is used to setup the whole swipable cards.
 
 For swiping i used UIPanGestureRecognizer. Which is the primary API given by apple to determine the direction in which the user swipes.
 
-examplecardLabek is the array to load the number of cards to be disaplayed in the view.
+examplecardLabel is the array to load the number of cards to be disaplayed in the view.
+
 loadedcard is the object which holds the current card that is diaplaying at the top of the viewcontroller. updating the position of the card.
+
 Allcards object holds the value to check whether bothe the loaded cards and examplecardlabel holds the same count in order to determine the flow.
 
 In DraggableView The direction to swipe the card is implemented.
