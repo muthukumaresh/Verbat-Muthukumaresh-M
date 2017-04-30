@@ -1,0 +1,550 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D49E41B21EB5D990004993FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41B11EB5D990004993FC /* main.m */; };
+		D49E41B51EB5D990004993FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41B41EB5D990004993FC /* AppDelegate.m */; };
+		D49E41B81EB5D990004993FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41B71EB5D990004993FC /* ViewController.m */; };
+		D49E41BB1EB5D991004993FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49E41B91EB5D991004993FC /* Main.storyboard */; };
+		D49E41BD1EB5D991004993FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D49E41BC1EB5D991004993FC /* Assets.xcassets */; };
+		D49E41C01EB5D991004993FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D49E41BE1EB5D991004993FC /* LaunchScreen.storyboard */; };
+		D49E41CB1EB5D991004993FC /* VerbatCardExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41CA1EB5D991004993FC /* VerbatCardExampleTests.m */; };
+		D49E41D61EB5D991004993FC /* VerbatCardExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41D51EB5D991004993FC /* VerbatCardExampleUITests.m */; };
+		D49E41E91EB5D9DD004993FC /* DraggableViewBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41E41EB5D9DD004993FC /* DraggableViewBackground.m */; };
+		D49E41EA1EB5D9DD004993FC /* DraggableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41E61EB5D9DD004993FC /* DraggableView.m */; };
+		D49E41EB1EB5D9DD004993FC /* OverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E41E81EB5D9DD004993FC /* OverlayView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D49E41C71EB5D991004993FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49E41A51EB5D990004993FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49E41AC1EB5D990004993FC;
+			remoteInfo = VerbatCardExample;
+		};
+		D49E41D21EB5D991004993FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D49E41A51EB5D990004993FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49E41AC1EB5D990004993FC;
+			remoteInfo = VerbatCardExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D49E41AD1EB5D990004993FC /* VerbatCardExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VerbatCardExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E41B11EB5D990004993FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D49E41B31EB5D990004993FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D49E41B41EB5D990004993FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D49E41B61EB5D990004993FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D49E41B71EB5D990004993FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D49E41BA1EB5D991004993FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D49E41BC1EB5D991004993FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D49E41BF1EB5D991004993FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D49E41C11EB5D991004993FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49E41C61EB5D991004993FC /* VerbatCardExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbatCardExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E41CA1EB5D991004993FC /* VerbatCardExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbatCardExampleTests.m; sourceTree = "<group>"; };
+		D49E41CC1EB5D991004993FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49E41D11EB5D991004993FC /* VerbatCardExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VerbatCardExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E41D51EB5D991004993FC /* VerbatCardExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VerbatCardExampleUITests.m; sourceTree = "<group>"; };
+		D49E41D71EB5D991004993FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D49E41E31EB5D9DD004993FC /* DraggableViewBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableViewBackground.h; sourceTree = "<group>"; };
+		D49E41E41EB5D9DD004993FC /* DraggableViewBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableViewBackground.m; sourceTree = "<group>"; };
+		D49E41E51EB5D9DD004993FC /* DraggableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DraggableView.h; sourceTree = "<group>"; };
+		D49E41E61EB5D9DD004993FC /* DraggableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DraggableView.m; sourceTree = "<group>"; };
+		D49E41E71EB5D9DD004993FC /* OverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayView.h; sourceTree = "<group>"; };
+		D49E41E81EB5D9DD004993FC /* OverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D49E41AA1EB5D990004993FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E41C31EB5D991004993FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E41CE1EB5D991004993FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D49E41A41EB5D990004993FC = {
+			isa = PBXGroup;
+			children = (
+				D49E41AF1EB5D990004993FC /* VerbatCardExample */,
+				D49E41C91EB5D991004993FC /* VerbatCardExampleTests */,
+				D49E41D41EB5D991004993FC /* VerbatCardExampleUITests */,
+				D49E41AE1EB5D990004993FC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D49E41AE1EB5D990004993FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D49E41AD1EB5D990004993FC /* VerbatCardExample.app */,
+				D49E41C61EB5D991004993FC /* VerbatCardExampleTests.xctest */,
+				D49E41D11EB5D991004993FC /* VerbatCardExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D49E41AF1EB5D990004993FC /* VerbatCardExample */ = {
+			isa = PBXGroup;
+			children = (
+				D49E41B31EB5D990004993FC /* AppDelegate.h */,
+				D49E41B41EB5D990004993FC /* AppDelegate.m */,
+				D49E41B61EB5D990004993FC /* ViewController.h */,
+				D49E41B71EB5D990004993FC /* ViewController.m */,
+				D49E41B91EB5D991004993FC /* Main.storyboard */,
+				D49E41E31EB5D9DD004993FC /* DraggableViewBackground.h */,
+				D49E41E41EB5D9DD004993FC /* DraggableViewBackground.m */,
+				D49E41E51EB5D9DD004993FC /* DraggableView.h */,
+				D49E41E61EB5D9DD004993FC /* DraggableView.m */,
+				D49E41E71EB5D9DD004993FC /* OverlayView.h */,
+				D49E41E81EB5D9DD004993FC /* OverlayView.m */,
+				D49E41BC1EB5D991004993FC /* Assets.xcassets */,
+				D49E41BE1EB5D991004993FC /* LaunchScreen.storyboard */,
+				D49E41C11EB5D991004993FC /* Info.plist */,
+				D49E41B01EB5D990004993FC /* Supporting Files */,
+			);
+			path = VerbatCardExample;
+			sourceTree = "<group>";
+		};
+		D49E41B01EB5D990004993FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D49E41B11EB5D990004993FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D49E41C91EB5D991004993FC /* VerbatCardExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D49E41CA1EB5D991004993FC /* VerbatCardExampleTests.m */,
+				D49E41CC1EB5D991004993FC /* Info.plist */,
+			);
+			path = VerbatCardExampleTests;
+			sourceTree = "<group>";
+		};
+		D49E41D41EB5D991004993FC /* VerbatCardExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D49E41D51EB5D991004993FC /* VerbatCardExampleUITests.m */,
+				D49E41D71EB5D991004993FC /* Info.plist */,
+			);
+			path = VerbatCardExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D49E41AC1EB5D990004993FC /* VerbatCardExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49E41DA1EB5D991004993FC /* Build configuration list for PBXNativeTarget "VerbatCardExample" */;
+			buildPhases = (
+				D49E41A91EB5D990004993FC /* Sources */,
+				D49E41AA1EB5D990004993FC /* Frameworks */,
+				D49E41AB1EB5D990004993FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VerbatCardExample;
+			productName = VerbatCardExample;
+			productReference = D49E41AD1EB5D990004993FC /* VerbatCardExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D49E41C51EB5D991004993FC /* VerbatCardExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49E41DD1EB5D991004993FC /* Build configuration list for PBXNativeTarget "VerbatCardExampleTests" */;
+			buildPhases = (
+				D49E41C21EB5D991004993FC /* Sources */,
+				D49E41C31EB5D991004993FC /* Frameworks */,
+				D49E41C41EB5D991004993FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49E41C81EB5D991004993FC /* PBXTargetDependency */,
+			);
+			name = VerbatCardExampleTests;
+			productName = VerbatCardExampleTests;
+			productReference = D49E41C61EB5D991004993FC /* VerbatCardExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D49E41D01EB5D991004993FC /* VerbatCardExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D49E41E01EB5D991004993FC /* Build configuration list for PBXNativeTarget "VerbatCardExampleUITests" */;
+			buildPhases = (
+				D49E41CD1EB5D991004993FC /* Sources */,
+				D49E41CE1EB5D991004993FC /* Frameworks */,
+				D49E41CF1EB5D991004993FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D49E41D31EB5D991004993FC /* PBXTargetDependency */,
+			);
+			name = VerbatCardExampleUITests;
+			productName = VerbatCardExampleUITests;
+			productReference = D49E41D11EB5D991004993FC /* VerbatCardExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D49E41A51EB5D990004993FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Muthukumaresh;
+				TargetAttributes = {
+					D49E41AC1EB5D990004993FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+					D49E41C51EB5D991004993FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D49E41AC1EB5D990004993FC;
+					};
+					D49E41D01EB5D991004993FC = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D49E41AC1EB5D990004993FC;
+					};
+				};
+			};
+			buildConfigurationList = D49E41A81EB5D990004993FC /* Build configuration list for PBXProject "VerbatCardExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D49E41A41EB5D990004993FC;
+			productRefGroup = D49E41AE1EB5D990004993FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D49E41AC1EB5D990004993FC /* VerbatCardExample */,
+				D49E41C51EB5D991004993FC /* VerbatCardExampleTests */,
+				D49E41D01EB5D991004993FC /* VerbatCardExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D49E41AB1EB5D990004993FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E41C01EB5D991004993FC /* LaunchScreen.storyboard in Resources */,
+				D49E41BD1EB5D991004993FC /* Assets.xcassets in Resources */,
+				D49E41BB1EB5D991004993FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E41C41EB5D991004993FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E41CF1EB5D991004993FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D49E41A91EB5D990004993FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E41E91EB5D9DD004993FC /* DraggableViewBackground.m in Sources */,
+				D49E41EB1EB5D9DD004993FC /* OverlayView.m in Sources */,
+				D49E41B81EB5D990004993FC /* ViewController.m in Sources */,
+				D49E41B51EB5D990004993FC /* AppDelegate.m in Sources */,
+				D49E41B21EB5D990004993FC /* main.m in Sources */,
+				D49E41EA1EB5D9DD004993FC /* DraggableView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E41C21EB5D991004993FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E41CB1EB5D991004993FC /* VerbatCardExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D49E41CD1EB5D991004993FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D49E41D61EB5D991004993FC /* VerbatCardExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D49E41C81EB5D991004993FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49E41AC1EB5D990004993FC /* VerbatCardExample */;
+			targetProxy = D49E41C71EB5D991004993FC /* PBXContainerItemProxy */;
+		};
+		D49E41D31EB5D991004993FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D49E41AC1EB5D990004993FC /* VerbatCardExample */;
+			targetProxy = D49E41D21EB5D991004993FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D49E41B91EB5D991004993FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49E41BA1EB5D991004993FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D49E41BE1EB5D991004993FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D49E41BF1EB5D991004993FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D49E41D81EB5D991004993FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D49E41D91EB5D991004993FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D49E41DB1EB5D991004993FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerbatCardExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muthukumaresh.VerbatCardExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D49E41DC1EB5D991004993FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VerbatCardExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muthukumaresh.VerbatCardExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D49E41DE1EB5D991004993FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VerbatCardExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muthukumaresh.VerbatCardExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerbatCardExample.app/VerbatCardExample";
+			};
+			name = Debug;
+		};
+		D49E41DF1EB5D991004993FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VerbatCardExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muthukumaresh.VerbatCardExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VerbatCardExample.app/VerbatCardExample";
+			};
+			name = Release;
+		};
+		D49E41E11EB5D991004993FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerbatCardExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muthukumaresh.VerbatCardExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VerbatCardExample;
+			};
+			name = Debug;
+		};
+		D49E41E21EB5D991004993FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VerbatCardExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Muthukumaresh.VerbatCardExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VerbatCardExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D49E41A81EB5D990004993FC /* Build configuration list for PBXProject "VerbatCardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E41D81EB5D991004993FC /* Debug */,
+				D49E41D91EB5D991004993FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D49E41DA1EB5D991004993FC /* Build configuration list for PBXNativeTarget "VerbatCardExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E41DB1EB5D991004993FC /* Debug */,
+				D49E41DC1EB5D991004993FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D49E41DD1EB5D991004993FC /* Build configuration list for PBXNativeTarget "VerbatCardExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E41DE1EB5D991004993FC /* Debug */,
+				D49E41DF1EB5D991004993FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D49E41E01EB5D991004993FC /* Build configuration list for PBXNativeTarget "VerbatCardExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D49E41E11EB5D991004993FC /* Debug */,
+				D49E41E21EB5D991004993FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D49E41A51EB5D990004993FC /* Project object */;
+}
